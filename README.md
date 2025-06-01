@@ -13,8 +13,8 @@ work by fine-tuning a SentenceTransformer initialized with
  the **nlpaueb/legal-bert-base-uncased model**. Despite implementing Top-K layer fine-tuning and gradual unfreezing to mitigate
  overfitting, the model failed to produce satisfactory results due to
  the dataset’s limited size and the model’s large parameter count.
- Subsequently, we adopted a more lightweight model, legal-bert
-small-uncased, and repeated the embedding-based approach.
+ Subsequently, we adopted a more lightweight model, **nlpaueb/legal-bert
+small-uncased**, and repeated the embedding-based approach.
  However, performance improvements remained marginal. As an
  alternative, we restructured the task as a binary classification
  problem, treating each article-query pair as a natural language
